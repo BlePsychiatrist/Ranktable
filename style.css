@@ -1,0 +1,31 @@
+.styled{
+    border-collapse: collapse;
+    margin: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+   /*  padding: 30px 15px; */
+}
+.styled thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled th,
+.styled td{
+    padding: 12px 15px;
+}
+.styled tbody tr{
+    border-bottom: 1px solid white;
+}
+.styled tbody tr:nth-child(even){
+    background-color: rgb(217, 210, 210);
+    color: rgb(64, 159, 64);
+    font-weight: bold;
+}
+.styled tbody tr:last-of-type{
+    border-bottom: 2px solid green;
+}
